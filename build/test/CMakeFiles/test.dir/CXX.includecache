@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/log/LogCommon.hpp
+unordered_map
+-
+
+../include/log/LogMessage.hpp
+iostream
+-
+sstream
+-
+string
+-
+LogCommon.hpp
+../include/log/LogCommon.hpp
+
+../include/log/Timestamp.hpp
+ctime
+-
+string
+-
+LogCommon.hpp
+../include/log/LogCommon.hpp
+
+/home/ubuntu/asyncLog/src/log/LogMessage.cpp
+LogCommon.hpp
+/home/ubuntu/asyncLog/src/log/LogCommon.hpp
+LogMessage.hpp
+/home/ubuntu/asyncLog/src/log/LogMessage.hpp
+Timestamp.hpp
+/home/ubuntu/asyncLog/src/log/Timestamp.hpp
+sstream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test.dir/TestTimt.cpp.o CMakeFiles/test.dir/__/src/log/LogMessage.cpp.o CMakeFiles/test.dir/__/src/log/Timestamp.cpp.o CMakeFiles/test.dir/__/src/log/Logger.cpp.o  -o ../../bin/test 
