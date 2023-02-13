@@ -6,7 +6,7 @@
 using namespace std;
 #include "LogCommon.hpp"
 
-namespace tulun
+namespace async
 {
     class LogMessage
     {

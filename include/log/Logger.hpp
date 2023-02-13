@@ -8,9 +8,9 @@ using namespace std;
 
 //own
 #include"LogCommon.hpp"
-#include"LogMessage.hpp"
+#include "LogMessage.hpp"
 
-namespace tulun
+namespace async
 {
 
 class Logger
@@ -30,7 +30,7 @@ private:
      // 日志级别
 public:
     // [日志级别];[文件名称];[函数名称];[行号]  
-    Logger(tulun::LOG_LEVEL level,const string &name,const string &func,const int line);
+    Logger(async::LOG_LEVEL level,const string &name,const string &func,const int line);
     ~Logger();
     LogMessage & stream();
     static void setLogLevel(LOG_LEVEL level);
@@ -39,13 +39,17 @@ private:
     static LOG_LEVEL s_level_;
 };  
 
-#define LOG(LEVEL) tulun::Logger(tulun::LOG_LEVEL::LEVEL,__FILE__,__func__,__LINE__).stream()
+//日志屏蔽
+#define LOG(LEVEL) if(async::Logger::getLogLevel()<= async::LOG_LEVEL::LEVEL) \
+    async::Logger(async::LOG_LEVEL::LEVEL,__FILE__,__func__,__LINE__).stream()
 
 #define LOG_WARN LOG(WARN)
-
 #define LOG_FATAL LOG(FATAL)
+#define LOG_INFO LOG(INFO)
+#define LOG_DEBUG LOG(DEBUG)
+#define LOG_TRACE LOG(TRACE)
 
-//#define LOG_FATAL tulun::Logger(tulun::LOG_LEVEL::FATAL,__FILE__,__func__,__LINE__).stream()
+//#define LOG_FATAL async::Logger(async::LOG_LEVEL::FATAL,__FILE__,__func__,__LINE__).stream()
 
 
 

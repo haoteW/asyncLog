@@ -152,6 +152,114 @@ TestTimt.cpp.s:
 	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/TestTimt.cpp.s
 .PHONY : TestTimt.cpp.s
 
+__/src/log/AppendFile.o: __/src/log/AppendFile.cpp.o
+
+.PHONY : __/src/log/AppendFile.o
+
+# target to build an object file
+__/src/log/AppendFile.cpp.o:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o
+.PHONY : __/src/log/AppendFile.cpp.o
+
+__/src/log/AppendFile.i: __/src/log/AppendFile.cpp.i
+
+.PHONY : __/src/log/AppendFile.i
+
+# target to preprocess a source file
+__/src/log/AppendFile.cpp.i:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.i
+.PHONY : __/src/log/AppendFile.cpp.i
+
+__/src/log/AppendFile.s: __/src/log/AppendFile.cpp.s
+
+.PHONY : __/src/log/AppendFile.s
+
+# target to generate assembly for a file
+__/src/log/AppendFile.cpp.s:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.s
+.PHONY : __/src/log/AppendFile.cpp.s
+
+__/src/log/AsyncLogging.o: __/src/log/AsyncLogging.cpp.o
+
+.PHONY : __/src/log/AsyncLogging.o
+
+# target to build an object file
+__/src/log/AsyncLogging.cpp.o:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o
+.PHONY : __/src/log/AsyncLogging.cpp.o
+
+__/src/log/AsyncLogging.i: __/src/log/AsyncLogging.cpp.i
+
+.PHONY : __/src/log/AsyncLogging.i
+
+# target to preprocess a source file
+__/src/log/AsyncLogging.cpp.i:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.i
+.PHONY : __/src/log/AsyncLogging.cpp.i
+
+__/src/log/AsyncLogging.s: __/src/log/AsyncLogging.cpp.s
+
+.PHONY : __/src/log/AsyncLogging.s
+
+# target to generate assembly for a file
+__/src/log/AsyncLogging.cpp.s:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.s
+.PHONY : __/src/log/AsyncLogging.cpp.s
+
+__/src/log/CountDownLatch.o: __/src/log/CountDownLatch.cpp.o
+
+.PHONY : __/src/log/CountDownLatch.o
+
+# target to build an object file
+__/src/log/CountDownLatch.cpp.o:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o
+.PHONY : __/src/log/CountDownLatch.cpp.o
+
+__/src/log/CountDownLatch.i: __/src/log/CountDownLatch.cpp.i
+
+.PHONY : __/src/log/CountDownLatch.i
+
+# target to preprocess a source file
+__/src/log/CountDownLatch.cpp.i:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.i
+.PHONY : __/src/log/CountDownLatch.cpp.i
+
+__/src/log/CountDownLatch.s: __/src/log/CountDownLatch.cpp.s
+
+.PHONY : __/src/log/CountDownLatch.s
+
+# target to generate assembly for a file
+__/src/log/CountDownLatch.cpp.s:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.s
+.PHONY : __/src/log/CountDownLatch.cpp.s
+
+__/src/log/LogFile.o: __/src/log/LogFile.cpp.o
+
+.PHONY : __/src/log/LogFile.o
+
+# target to build an object file
+__/src/log/LogFile.cpp.o:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.o
+.PHONY : __/src/log/LogFile.cpp.o
+
+__/src/log/LogFile.i: __/src/log/LogFile.cpp.i
+
+.PHONY : __/src/log/LogFile.i
+
+# target to preprocess a source file
+__/src/log/LogFile.cpp.i:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.i
+.PHONY : __/src/log/LogFile.cpp.i
+
+__/src/log/LogFile.s: __/src/log/LogFile.cpp.s
+
+.PHONY : __/src/log/LogFile.s
+
+# target to generate assembly for a file
+__/src/log/LogFile.cpp.s:
+	cd /home/ubuntu/asyncLog/build && $(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.s
+.PHONY : __/src/log/LogFile.cpp.s
+
 __/src/log/LogMessage.o: __/src/log/LogMessage.cpp.o
 
 .PHONY : __/src/log/LogMessage.o
@@ -245,6 +353,18 @@ help:
 	@echo "... TestTimt.o"
 	@echo "... TestTimt.i"
 	@echo "... TestTimt.s"
+	@echo "... __/src/log/AppendFile.o"
+	@echo "... __/src/log/AppendFile.i"
+	@echo "... __/src/log/AppendFile.s"
+	@echo "... __/src/log/AsyncLogging.o"
+	@echo "... __/src/log/AsyncLogging.i"
+	@echo "... __/src/log/AsyncLogging.s"
+	@echo "... __/src/log/CountDownLatch.o"
+	@echo "... __/src/log/CountDownLatch.i"
+	@echo "... __/src/log/CountDownLatch.s"
+	@echo "... __/src/log/LogFile.o"
+	@echo "... __/src/log/LogFile.i"
+	@echo "... __/src/log/LogFile.s"
 	@echo "... __/src/log/LogMessage.o"
 	@echo "... __/src/log/LogMessage.i"
 	@echo "... __/src/log/LogMessage.s"

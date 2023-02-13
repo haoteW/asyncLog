@@ -5,6 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ubuntu/asyncLog/test/TestTimt.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/TestTimt.cpp.o"
+  "/home/ubuntu/asyncLog/src/log/AppendFile.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o"
+  "/home/ubuntu/asyncLog/src/log/AsyncLogging.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o"
+  "/home/ubuntu/asyncLog/src/log/CountDownLatch.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o"
+  "/home/ubuntu/asyncLog/src/log/LogFile.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.o"
   "/home/ubuntu/asyncLog/src/log/LogMessage.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/__/src/log/LogMessage.cpp.o"
   "/home/ubuntu/asyncLog/src/log/Logger.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/__/src/log/Logger.cpp.o"
   "/home/ubuntu/asyncLog/src/log/Timestamp.cpp" "/home/ubuntu/asyncLog/build/test/CMakeFiles/test.dir/__/src/log/Timestamp.cpp.o"
@@ -13,6 +17,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include/utils"
   "../include/log"
   )
 

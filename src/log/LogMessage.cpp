@@ -1,11 +1,10 @@
-
-
 #include "LogCommon.hpp"
 #include "LogMessage.hpp"
 #include "Timestamp.hpp"
 #include <sstream>
 using namespace std;
-namespace tulun
+
+namespace async
 {
 
     // std::string Header;   // [时间戳];[日志级别];[文件名称];[函数名称];[行号]

@@ -4,22 +4,8 @@
 #define __LOGCOMMON_H
 
 #include <unordered_map>
-namespace tulun
+namespace async
 {
-    class copyable
-    {
-    };
-
-    class nocopyable
-    {
-    public:
-        nocopyable(const nocopyable &) = delete;
-        nocopyable &operator=(const nocopyable &) = delete;
-
-    public:
-        nocopyable() {}
-        ~nocopyable() {}
-    };
 
     static const int SMALL_BUF_LEN = 128;
     static const int MEDIAN_BUF_LEN = 512;
@@ -69,10 +55,10 @@ namespace tulun
     // unordered_map hash表 存取  查找时间复杂度O(1)
     // 这张表表示的 日志级别到对应颜色的映射关系
     static std::unordered_map<LOG_LEVEL, COLOR_NUMBER> LogLevelColor = {
-        {tulun::LOG_LEVEL::INFO, INFO_COLOR},
-        {tulun::LOG_LEVEL::ERROR, ERROR_COLOR},
-        {tulun::LOG_LEVEL::DEBUG, DEBUG_COLOR},
-        {tulun::LOG_LEVEL::FATAL, FATAL_COLOR}};
+        {async::LOG_LEVEL::INFO, INFO_COLOR},
+        {async::LOG_LEVEL::ERROR, ERROR_COLOR},
+        {async::LOG_LEVEL::DEBUG, DEBUG_COLOR},
+        {async::LOG_LEVEL::FATAL, FATAL_COLOR}};
 
     // 这张表表示的 字段(file function line)到对应颜色的映射关系
     static std::unordered_map<LOG_FEILD, COLOR_NUMBER> LogFeildColor = {

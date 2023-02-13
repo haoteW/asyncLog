@@ -5,15 +5,15 @@
 #include <time.h>
 #include <sys/time.h>
 
-namespace tulun
+namespace async
 {
 
     MicroTimestamp::MicroTimestamp()
         : microSecondsSinceEpoch_{0}
     {
     }
-    MicroTimestamp::MicroTimestamp(int64_t microSecondsSinceEpoch)
-        : microSecondsSinceEpoch_(microSecondsSinceEpoch)
+    MicroTimestamp::MicroTimestamp(std::int64_t microSecondsSinceEpoch)
+        : microSecondsSinceEpoch_{microSecondsSinceEpoch}
     {
     }
     void MicroTimestamp::swap(MicroTimestamp &that)
@@ -41,6 +41,20 @@ namespace tulun
 
         localtime_r(&seconds, &tm_time);
         snprintf(buff, sizeof(buff), "[%4d/%02d/%02d-%02d:%02d:%02d.%ld]",
+                 tm_time.tm_year + 1900, tm_time.tm_mon + 1, tm_time.tm_mday,
+                 tm_time.tm_hour, tm_time.tm_min, tm_time.tm_sec, microseconds);
+        return buff;
+    }
+    std::string MicroTimestamp::toFormattedFile() const
+    {
+        char buff[SMALL_BUF_LEN] = {0};
+        time_t seconds = microSecondsSinceEpoch_ / kMicroSecondsPerSecond;
+        int64_t microseconds = microSecondsSinceEpoch_ % kMicroSecondsPerSecond;
+        struct tm tm_time;
+        // gmtime_r(&seconds, &tm_time);// 线程安全 localtime_r获取本地时间。
+
+        localtime_r(&seconds, &tm_time);
+        snprintf(buff, sizeof(buff), "%4d%02d%02d%02d%02d%02d.%ldZ",
                  tm_time.tm_year + 1900, tm_time.tm_mon + 1, tm_time.tm_mday,
                  tm_time.tm_hour, tm_time.tm_min, tm_time.tm_sec, microseconds);
         return buff;

@@ -6,5 +6,5 @@ CXX_FLAGS =   -g -std=c++0x
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ubuntu/asyncLog/include/log 
+CXX_INCLUDES = -I/home/ubuntu/asyncLog/include/utils -I/home/ubuntu/asyncLog/include/log 
 

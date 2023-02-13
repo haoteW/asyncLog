@@ -3,20 +3,23 @@
 #include<ctime>         // include<time.h>
 #include<string>        // include<cstring> 
 #include"LogCommon.hpp"
-namespace tulun
+#include "noncopyable.hpp"
+namespace async
 {
-    class MicroTimestamp : public tulun::copyable
+    class MicroTimestamp
 	{
 	private:
 		std::int64_t microSecondsSinceEpoch_;// 1970 .....2023 
 	public:
 		MicroTimestamp();
-		explicit MicroTimestamp(int64_t microSecondsSinceEpoch);
+		explicit MicroTimestamp(std::int64_t microSecondsSinceEpoch);
 		void swap(MicroTimestamp& that);
         //按不同的两种格式输出时间
 		std::string toString() const;
 		std::string toFormattedString(bool showMicroseconds = true) const;
-		bool valid() const;
+
+        std::string toFormattedFile() const;//文件名时间  ---- 2
+        bool valid() const;
 		 // for internal usage.
 		std::int64_t microSecondsSinceEpoch() const ;
 		time_t secondsSinceEpoch() const;

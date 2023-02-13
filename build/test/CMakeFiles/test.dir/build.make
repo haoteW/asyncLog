@@ -109,12 +109,68 @@ test/CMakeFiles/test.dir/__/src/log/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/log/Logger.cpp.s"
 	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/asyncLog/src/log/Logger.cpp -o CMakeFiles/test.dir/__/src/log/Logger.cpp.s
 
+test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o: ../src/log/CountDownLatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/asyncLog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o -c /home/ubuntu/asyncLog/src/log/CountDownLatch.cpp
+
+test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.i"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/asyncLog/src/log/CountDownLatch.cpp > CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.i
+
+test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.s"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/asyncLog/src/log/CountDownLatch.cpp -o CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.s
+
+test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o: ../src/log/AppendFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/asyncLog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o -c /home/ubuntu/asyncLog/src/log/AppendFile.cpp
+
+test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/log/AppendFile.cpp.i"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/asyncLog/src/log/AppendFile.cpp > CMakeFiles/test.dir/__/src/log/AppendFile.cpp.i
+
+test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/log/AppendFile.cpp.s"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/asyncLog/src/log/AppendFile.cpp -o CMakeFiles/test.dir/__/src/log/AppendFile.cpp.s
+
+test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.o: ../src/log/LogFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/asyncLog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.o"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/log/LogFile.cpp.o -c /home/ubuntu/asyncLog/src/log/LogFile.cpp
+
+test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/log/LogFile.cpp.i"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/asyncLog/src/log/LogFile.cpp > CMakeFiles/test.dir/__/src/log/LogFile.cpp.i
+
+test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/log/LogFile.cpp.s"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/asyncLog/src/log/LogFile.cpp -o CMakeFiles/test.dir/__/src/log/LogFile.cpp.s
+
+test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o: ../src/log/AsyncLogging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/asyncLog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o -c /home/ubuntu/asyncLog/src/log/AsyncLogging.cpp
+
+test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.i"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/asyncLog/src/log/AsyncLogging.cpp > CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.i
+
+test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.s"
+	cd /home/ubuntu/asyncLog/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/asyncLog/src/log/AsyncLogging.cpp -o CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.s
+
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/TestTimt.cpp.o" \
 "CMakeFiles/test.dir/__/src/log/LogMessage.cpp.o" \
 "CMakeFiles/test.dir/__/src/log/Timestamp.cpp.o" \
-"CMakeFiles/test.dir/__/src/log/Logger.cpp.o"
+"CMakeFiles/test.dir/__/src/log/Logger.cpp.o" \
+"CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o" \
+"CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o" \
+"CMakeFiles/test.dir/__/src/log/LogFile.cpp.o" \
+"CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
@@ -123,9 +179,13 @@ test_EXTERNAL_OBJECTS =
 ../bin/test: test/CMakeFiles/test.dir/__/src/log/LogMessage.cpp.o
 ../bin/test: test/CMakeFiles/test.dir/__/src/log/Timestamp.cpp.o
 ../bin/test: test/CMakeFiles/test.dir/__/src/log/Logger.cpp.o
+../bin/test: test/CMakeFiles/test.dir/__/src/log/CountDownLatch.cpp.o
+../bin/test: test/CMakeFiles/test.dir/__/src/log/AppendFile.cpp.o
+../bin/test: test/CMakeFiles/test.dir/__/src/log/LogFile.cpp.o
+../bin/test: test/CMakeFiles/test.dir/__/src/log/AsyncLogging.cpp.o
 ../bin/test: test/CMakeFiles/test.dir/build.make
 ../bin/test: test/CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/asyncLog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/asyncLog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../bin/test"
 	cd /home/ubuntu/asyncLog/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
